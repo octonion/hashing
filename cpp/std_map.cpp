@@ -37,10 +37,10 @@ int main() {
 
   lb = logq(bound);
 
-  unordered_map<unsigned long int, unsigned long int> paths;
+  map<unsigned long int, unsigned long int> paths;
   paths[3] = 3;
 
-  unordered_map<unsigned long int, unsigned int> sqrts;
+  map<unsigned long int, unsigned int> sqrts;
   sqrts[3] = 0;
   
   queue<unsigned long int> queue;
