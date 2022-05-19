@@ -31,6 +31,12 @@ g++ -O3 std_map.cpp -lquadmath
 g++ -O3 std_unordered_map.cpp -lquadmath
 ```
 
+## Tessil
+
+```
+g++ -O3 -I include tsl_sparse_map.cpp -lquadmath
+```
+
 ## uthash
 
 ```
