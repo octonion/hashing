@@ -24,7 +24,7 @@ g++ -O3 google_dense_hash_map.cpp -lquadmath
 ## Standard
 
 ```
-g++ -O3 std_ordered_map.cpp -lquadmath
+g++ -O3 std_map.cpp -lquadmath
 ```
 
 ```
